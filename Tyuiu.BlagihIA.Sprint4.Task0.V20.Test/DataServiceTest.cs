@@ -12,7 +12,7 @@ namespace Tyuiu.BlagihIA.Sprint4.Task0.V20.Test
             int wait = 2;
             int res = ds.GetMultEvenArrEl(array);
 
-            Assert.AreEqual(wait, res);
+            Assert.AreEqual(wait, res); 
         }
     }
 }

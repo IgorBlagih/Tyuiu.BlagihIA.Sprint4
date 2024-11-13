@@ -15,5 +15,5 @@ namespace Tyuiu.BlagihIA.Sprint4.Task0.V20.Lib
             }
             return c;
         }
-    }
+    } 
 }
