@@ -5,15 +5,15 @@ namespace Tyuiu.BlagihIA.Sprint4.Task0.V20.Lib
     {
         public int GetMultEvenArrEl(int[] array)
         {
-            int c = 0;
+            int  sum= 1;
             for (int i=0; i <array.Length; i++)
             {
                 if (array[i] % 2 ==0)
                 {
-                    c++;
+                    sum *=array[i];
                 }
             }
-            return c;
+            return sum;
         }
     } 
 }
