@@ -54,7 +54,7 @@ namespace Tyuiu.BlagihIA.Sprint4.Task4.V13
             {
                 for (int j = 0; j < mtrx.GetLength(1); j++)
                 {
-                    Console.WriteLine(mtrx[i, j] + "\t");
+                    Console.Write(mtrx[i, j] + "\t");
                 }
                 Console.WriteLine();
             }
