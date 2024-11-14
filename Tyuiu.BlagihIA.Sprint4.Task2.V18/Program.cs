@@ -40,7 +40,7 @@ namespace Tyuiu.BlagihIA.Sprint4.Task2.V18
             Console.WriteLine("Массив");
             for (int i = 0; i < len; i++)
             {
-                Console.WriteLine(array[i] + "\t");
+                Console.Write(array[i] + "\t");
             }
 
 
