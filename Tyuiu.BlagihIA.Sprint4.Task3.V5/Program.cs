@@ -43,7 +43,7 @@ namespace Tyuiu.BlagihIA.Sprint4.Task3.V5
             {
                 for (int j = 0; j < array.GetLength(1); j++)
                 {
-                    Console.WriteLine(array[i,j] + "\t");
+                    Console.Write(array[i,j] + "\t");
                 }
                 Console.WriteLine();
             }
