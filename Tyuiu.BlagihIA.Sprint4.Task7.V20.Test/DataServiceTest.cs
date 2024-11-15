@@ -19,4 +19,4 @@ namespace Tyuiu.BlagihIA.Sprint4.Task7.V20.Test
             Assert.AreEqual(wait, res);
         }
     }
-}
+} 

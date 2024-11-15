@@ -33,7 +33,7 @@ namespace Tyuiu.BlagihIA.Sprint4.Task7.V20
             {
                 for (int j = 0; j < 3; j++)
                 {
-                    mtrx[i, j] = int.Parse(str[i * 3 + j].ToString());
+                    mtrx[i, j] = int.Parse(str[i * 3 + j].ToString()); 
                     Console.Write(mtrx[i, j] + "\t");
                 }
                 Console.WriteLine();
